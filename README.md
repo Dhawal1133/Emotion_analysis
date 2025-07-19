@@ -33,13 +33,14 @@ The model predicts the following emotions:
 ## 🗂️ Project Structure
 
 Speech_emo/
-├── app.py # Main script to run emotion recognition
-├── audio_utils.py # Handles audio recording & feature extraction
-├── emotion_utils.py # Loads model & makes emotion predictions
+├── app.py                # Main script to run emotion recognition
+├── audio_utils.py        # Audio recording & MFCC feature extraction
+├── emotion_utils.py      # Loads model & makes predictions
 ├── model/
-│ └── LSTM_model_*.h5 # Pre-trained LSTM model file
-├── temp_audio/ # Temporary audio files (auto-created)
-└── requirements.txt # Dependencies
+│   └── LSTM_model_*.h5   # Pre-trained LSTM model file
+├── temp_audio/           # Stores temporary recorded audio files
+└── requirements.txt      # Required dependencies
+
 
 
 ---
@@ -48,7 +49,7 @@ Speech_emo/
 
 ### 🔧 1. Clone Repository
 
-```bash
+
 git clone https://github.com/your-username/speech-emotion-recognition.git
 cd speech-emotion-recognition
 pip install tensorflow==2.10 numpy>=1.24 librosa pyaudio soundfile
@@ -65,7 +66,7 @@ Sample Output:
  - surprised: 0.00
  - sad: 0.00
 
-📚 Model Details
+## 📚 Model Details
 Type: Sequential LSTM
 
 Input Shape: (1, 40, 1)
@@ -76,14 +77,14 @@ Trained on: RAVDESS Dataset
 
 Model Used: LSTM_model_Date_Time_2024_01_03_20_39_00___Loss_0.0434___Accuracy_0.9861.h5
 
-🙏 Credits
+## 🙏 Credits
 Model & Training: Billy Enrizky
 
 Dataset: RAVDESS
 
 Libraries: TensorFlow, Keras, Librosa, PyAudio
 
-💡 Future Enhancements
+## 💡 Future Enhancements
 Web-based UI using Streamlit or Flask
 
 Continuous audio emotion tracking
