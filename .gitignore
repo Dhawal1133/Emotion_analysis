@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+venv1/
+.env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Audio temp files
+temp_audio/
+*.wav
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Model files (optional, if too large)
+*.h5
+*.keras
