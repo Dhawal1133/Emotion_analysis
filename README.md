@@ -1,6 +1,6 @@
 # 🎙️ Speech Emotion Recognition (SER) with LSTM
 
-This project implements a **real-time Speech Emotion Recognition system** using deep learning. It records audio from the user's microphone, extracts MFCC features, and classifies the emotional state using a pre-trained **LSTM model** trained on the RAVDESS dataset.
+This project implements a **real-time Speech Emotion Recognition system** using deep learning. It records audio from the user's microphone, extracts MFCC features, and classifies the emotional state using a **LSTM model** trained on the RAVDESS dataset.
 
 ---
 
@@ -78,7 +78,7 @@ Trained on: RAVDESS Dataset
 Model Used: LSTM_model_Date_Time_2024_01_03_20_39_00___Loss_0.0434___Accuracy_0.9861.h5
 
 ## 🙏 Credits
-Model & Training: Billy Enrizky
+Model & Training: Gaurav Goswami and Dhawal Phalak
 
 Dataset: RAVDESS
 
